@@ -26,7 +26,7 @@ $font3: roboto, sans-serif;
 
 body {
     text-align: center;
-    max-width: 1440px;
+    
     margin: 0 auto;
     font-family: $font3;
 }
@@ -36,5 +36,7 @@ li {
 }
 
 //Couleurs
-
-
+$white1: #f9f9f9;
+$orange: rgb(166, 114, 69);
+$black: rgb(19, 9, 9);
+$grey: rgb(182, 182, 182);
