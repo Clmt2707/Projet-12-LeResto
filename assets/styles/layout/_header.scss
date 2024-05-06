@@ -1,5 +1,4 @@
 header {
-    min-height: 100vh;
     background: url(../img/bg-slider-06.jpg) center/cover;
     padding: 50px 0;
     color: $white1;
@@ -8,9 +7,11 @@ header {
         
         display: grid;
         grid-template-columns: 12% 80% 8%;
-        max-width: 1220px;
+        max-width: 1110px;
         align-items: center;
         margin: 0 auto;
+        height: 12vh;
+        padding:0 5px;
 
         .logo {
             font-family: $font1;
@@ -55,7 +56,7 @@ header {
             height: 88vh;
 
             div {
-                margin-top: -210px;
+                margin-top: -280px;
 
                 h2 {
                     color: $orange;
@@ -73,7 +74,7 @@ header {
                 }
 
                 img {
-                    height: 27px;
+                    height: 30px;
                     margin: 32px 0;
                 }
 

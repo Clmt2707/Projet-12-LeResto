@@ -27,7 +27,6 @@ li {
 }
 
 header {
-  min-height: 100vh;
   background: url(../img/bg-slider-06.jpg) center/cover;
   padding: 50px 0;
   color: #f9f9f9;
@@ -35,9 +34,11 @@ header {
 header nav {
   display: grid;
   grid-template-columns: 12% 80% 8%;
-  max-width: 1220px;
+  max-width: 1110px;
   align-items: center;
   margin: 0 auto;
+  height: 12vh;
+  padding: 0 5px;
 }
 header nav .logo {
   font-family: allura, sans-serif;
@@ -74,7 +75,7 @@ header .header-text {
   height: 88vh;
 }
 header .header-text div {
-  margin-top: -210px;
+  margin-top: -280px;
 }
 header .header-text div h2 {
   color: rgb(166, 114, 69);
@@ -90,7 +91,7 @@ header .header-text div h1 {
   font-family: poppins, sans-serif;
 }
 header .header-text div img {
-  height: 27px;
+  height: 30px;
   margin: 32px 0;
 }
 header .header-text div h6 {
