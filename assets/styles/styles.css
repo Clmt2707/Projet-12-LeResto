@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "allura";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: roboto, sans-serif;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=styles.css.map */
