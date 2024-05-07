@@ -98,4 +98,46 @@ header .header-text div h6 {
   font-size: 0.75rem;
   letter-spacing: 6px;
   font-weight: 100;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section1 .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 10px;
+  border: 1px dashed rgb(182, 182, 182);
+  margin: 10px;
+}
+.section1 .about h2 {
+  color: rgb(166, 114, 69);
+  font-family: allura, sans-serif;
+}
+.section1 .about h3 {
+  font-weight: 600;
+  font-family: poppins, sans-serif;
+  margin-top: -10px;
+}
+.section1 .about img {
+  padding: 15px;
+}
+.section1 .about img:nth-of-type(2) {
+  height: 90px;
+  border-radius: 150px;
+  margin-bottom: 8px;
+}
+.section1 .about h4 {
+  font-family: poppins, sans-serif;
+  font-weight: 100;
+}
+.section1 .about h5 {
+  color: rgb(182, 182, 182);
+  font-size: 0.7rem;
+}
+.section1 .img {
+  background: url(../img/store-01.jpg) center/cover;
 }/*# sourceMappingURL=styles.css.map */
